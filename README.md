@@ -1,4 +1,4 @@
-# luajit-profiler
+# love-profiler
 A convenience wrapper around the built-in luajit profiler that spits out json files perfetto can read.
 
 Built for LOVE games.
