@@ -283,7 +283,7 @@ function Profiler:save_trace(path)
     if not ok then
         error("Failed to save trace: " .. tostring(err))
     else
-        print("Trace saved to " .. path)
+        print(("Trace saved to %s/%s"):format(love.filesystem.getSaveDirectory(), path))
     end
 end
 
