@@ -152,7 +152,7 @@ function Profiler:start(mode, thread_name)
         pid = 1,
         tid = self.thread_id,
         args = {
-            name = "what-a-mansion"
+            name = love.filesystem.getIdentity()
         }
     })
 
