@@ -1,8 +1,8 @@
 local PATH = (...):gsub("%.init$", "")
 
 local json = require(PATH .. ".lib.json")
+local zone = require(PATH .. ".zone")
 
-local zone = require("jit.zone")
 local profile = require("jit.profile")
 
 local DEFAULT_MODE = "fi1"
